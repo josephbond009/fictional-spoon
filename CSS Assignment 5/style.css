@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F8FA;
+    font-family: "Lato", serif;
+}
+
+.overall-container {
+    background-color: #F5F8FA;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-container {
+    padding-left: 10px;
+}
+
+section nav {
+    display: flex;
+    flex: 1;
+    padding: 10px 0 15px 0; 
+    border-bottom: solid 2px #EDF1F4;
+}
+
+.wppusher-logo {
+    width: 200px;
+    height: 32px;
+    margin-top: 5px;
+    /* margin-top: 22px;
+    margin-left: 40px; */
+}
+
+.right-nav {
+    display: flex;
+    gap: 20px;
+    padding-left: 700px;
+    /* margin-top: 30px; */
+}
+
+.nav-item {
+    margin-top: 10px;
+}
+
+.account {
+    margin-top: 5px;
+    padding: 5px 12px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.left-section {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.left-section h3 {
+    padding-bottom: 25px;
+    border-bottom: solid 2px #F9FAFB;
+    padding-left: 30px;
+}
+
+.basic, .payment {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-bottom: solid 2px #F9FAFB;
+    margin-top: 25px;
+    padding-bottom: 25px;
+}
+
+.input-group {
+    padding-bottom: 15px;
+}
+
+.basic {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    padding: 4px 8px;
+    border: solid 2px #6A99CC;
+    border-radius: 50%;
+    color: #6A99CC;
+}
+
+.btn-section {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 12px 150px;
+    background-color: #038E7D;
+    border: 0.1px solid #81C6BE;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+}
+
+.info {
+    padding: 5px 8px;
+    border-radius: 2px;
+    border: solid 1px #EDEFF2;
+    background-color: #EDEFF2;
+}
+
+.email {
+    width: 75%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.basic p {
+    margin-bottom: 15px;
+}
+
+.payment p {
+    margin-bottom: 15px;
+}
+
+.help-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.question {
+    padding: 0px 4px;
+    border: solid 2px #6A99CC;
+    border-radius: 50%;
+    color: #6A99CC;
+    margin-right: 8px;
+    font-size: smaller;
+}
+
+.need {
+    font-weight: 600;
+    margin-right: 5px;
+    font-size: smaller;
+}
+
+.help-section-foot, .support {
+    color: #78808B;
+    font-size: small;
+}
+
+.contact {
+    padding-right: 35px;
+    border-bottom: solid 1px ;
+}
+
+.support {
+    margin-left: 114px;
+    position: relative;
+    bottom: 6.5px;
+}
+
+.powered {
+    display: flex;
+    justify-content: center;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    padding: 22px 25px 22px 0px;
+    background-color: #1179BF;
+    color: #FFF;
+}
+
+.price {
+    margin-left: 25px;
+
+    h4 {
+        font-size: large;
+    }
+    .num {
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+    .dollar {
+        position: relative;
+        bottom: 20px;
+    }
+    .year {
+        position: relative;
+        top: 1px;
+    }
+}
+
+ul {
+    margin-top: 25px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.fa-regular {
+    color: #B9F5FF;
+    padding-right: 5px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.refer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 25px;
+    margin-top: 25px;
+    padding-bottom: 35px;
+    border-bottom: solid 2px #2F8AC7;
+}
+
+.switch b {
+    border-bottom: 3px solid #66B7DF;
+    letter-spacing: -0.5px;
+}
+
+.comments {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.customer {
+    display: flex;
+    gap: 9px;
+    margin-top: 20px;
+}
+
+.kirk {
+    width: 18%;
+    position: relative;
+    bottom: 2px;
+}
+
+.customer p {
+    position: relative;
+    top: 5px;
+}
+
+footer {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* nav > p {
+    position: relative;
+    top: 20px;
+}
+
+nav > button {
+    position: relative;
+    top: 10px;
+}
+
+section img {
+    width: 200px;
+    height: 39px;
+    position: relative;
+    top: -10px;
+} */
